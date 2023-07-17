@@ -1,0 +1,64 @@
+.schijf-wrapper {
+    position: relative;
+    background: #ffffff00;
+    height: 180px;
+    width: 206px;
+    overflow: hidden;
+}
+
+.schijf-body:hover {
+    border-color: blue;
+}
+
+.schijf-body {
+    position: absolute;
+    top: 50px;
+    background: #ead83a;
+    border-left: rgba(0, 0, 0, 0.703) 3px solid;
+    border-right: rgba(0, 0, 0, 0.703) 3px solid;
+
+    width: 200px;
+    height: 75px;
+    z-index: 1;
+}
+
+.ovaal {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: #ead83a;
+    -moz-border-radius: 100px / 65px;
+    -webkit-border-radius: 100px / 65px;
+
+    border-radius: 120px / 65px;
+    z-index: 1;
+}
+
+.schijf-top {
+    border: rgba(0, 0, 0, 0.703) 3px solid;
+    z-index: 2;
+}
+
+.schijf-top-secondary {
+    background: white !important;
+}
+
+.schijf-bottom {
+    top: 75px;
+    z-index: 0;
+    border-bottom: rgba(0, 0, 0, 0.703) 3px solid;
+    border-right: rgba(0, 0, 0, 0.703) 3px solid;
+    border-left: rgba(0, 0, 0, 0.703) 3px solid;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.schijf-text{
+    padding-top: 50px;
+}
